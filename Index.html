@@ -138,7 +138,7 @@
             const totalAmount = document.getElementById('total-amount').innerText.replace(' рублей', '');
             const paymentMethod = document.querySelector('input[name="payment-method"]:checked').value;
 
-            // Здесь вы можете добавить код для обработки платежа через API ЮKassa
+            // КОд юкассы
             fetch('https://api.yookassa.ru/v3/payments', {
                 method: 'POST',
                 headers: {
